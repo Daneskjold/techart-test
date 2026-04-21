@@ -1,0 +1,7 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.header {
+    width: 100%;
+    padding: 40px 0 43px;
+}

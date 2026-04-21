@@ -1,3 +1,27 @@
 :root {
-    --main-color: #FFA501;
+    --white: #ffffff;
+    --body-text: #000000;
+    --gray: #6C6E7B;
+    --brand-color: #841844;
+    --border-color: #9B407A;
+    --brand-color-hover: #6E1840;
+    --light-gray: #ECF2F5;
+
+    --fw-semibold: 600;
+
+    --fs-h1: 64px;
+    --lh-h1: 140%;
+    --fs-h2: 32px;
+    --lh-normal: normal;
+    --fs-text: 20px;
+    --lh-text: 160%;
+    --fs-descriptor: 16px;
+    --lh-descriptor: 160%;
+    --fs-date: 16px;
+    --fs-button: 16px;
+
+    --radius-button: 50px;
+    --radius-date: 20px;
+
+    --transition: 0.3s ease;
 }
