@@ -8,10 +8,10 @@
     color: $color;
 }
 
-@mixin h2 ($color: var(--body-text)) {
-    font-weight: var(--fw-semibold);
+@mixin h2 ($font-weight: var(--fw-semibold), $line-height: var(--lh-normal), $color: var(--body-text)) {
+    font-weight: $font-weight;
     font-size: var(--fs-h2);
-    line-height: var(--lh-normal);
+    line-height: $line-height;
     color: $color;
 }
 
@@ -79,7 +79,6 @@
     color: var(--gray);
 }
 
-/// @param {Bool} $active [false] — активный ли элемент
 @mixin pagination-item ($active: false) {
     display: inline-flex;
     justify-content: center;

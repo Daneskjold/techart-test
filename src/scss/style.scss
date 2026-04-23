@@ -5,6 +5,7 @@
 @use 'base/mixins' as m;
 
 @use 'blocks/header';
+@use 'blocks/promo';
 
 html {
     scroll-behavior: smooth;
@@ -17,7 +18,7 @@ body {
 
 
 .container {
-    width: 1520px;
+    max-width: 1540px;
     margin: 0 auto;
     padding: 0 20px;
 }
